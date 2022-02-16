@@ -1,0 +1,38 @@
+//descriptio
+API endpoint created using nodejs
+
+//features
+JWT token, password hashing, User Authentication and role validation
+
+//setting up the project
+npm install
+
+//
+exaweb - database name
+exaweb_users - tablename
+  - sys_id (int) autoincrement PK
+  -full_name (varchar 200)
+  -username (varchar 200)
+  -password (text)
+ 
+ //base url
+ localhost:3000/sample_proj/exaweb
+ 
+ //request
+ GET
+ /get_token
+ /get_all_user
+ /admin/get_all_users
+ 
+ POST
+ /post_user
+ /admin/post_user
+ 
+ PUT
+ /update_user/:sys_id
+ /admin/update_user/:sys_id
+ 
+ DELETE
+ /delete_user/:sys_id
+ /admin/delete_user/:sys_id
+ 
